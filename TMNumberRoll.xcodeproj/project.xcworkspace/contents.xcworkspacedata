@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NumberRollTest.xcodeproj">
+      location = "self:TMNumberRoll.xcodeproj">
    </FileRef>
 </Workspace>

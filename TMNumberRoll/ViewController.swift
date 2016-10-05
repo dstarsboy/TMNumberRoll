@@ -1,15 +1,15 @@
 //
 //  ViewController.swift
-//  NumberRollTest
+//  TMNumberRoll
 //
-//  Created by Travis Ma on 8/27/15.
-//  Copyright (c) 2015 IMSHealth. All rights reserved.
+//  Created by Travis Ma on 8/1/16.
+//  Copyright © 2016 Travis Ma. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var constraintScrollViewHeight: NSLayoutConstraint!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var label0: UILabel!
     @IBOutlet weak var label1: UILabel!
@@ -25,14 +25,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var f = scrollView.frame
-        scrollView.contentSize = f.size
-        f.size.height = 40
-        scrollView.frame = f
+        scrollView.contentSize = scrollView.frame.size
+        constraintScrollViewHeight.constant = 40
         labels = [label0, label1, label2, label3, label4, label5, label6, label7, label8, label9]
     }
-
-    @IBAction func btnRandomTap(sender: AnyObject) {
+    
+    @IBAction func btnRandomTap(_ sender: AnyObject) {
         let r = Int(arc4random_uniform(10))
         let label = labels[r]
         scrollView.scrollRectToVisible(label.frame, animated: true)

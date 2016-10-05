@@ -1,9 +1,13 @@
 # TMNumberRoll
 
-How to use storyboard to do the rolling numbers from the Robinhood App.
+Swift 3.0 / Xcode 8 / iOS10
 
-![alt tag](https://github.com/dstarsboy/TMNumberRoll/blob/master/RobinHoodAppNumberRoll.png?raw=true)
+Demo app showing how to roll/scroll/count up numbers similar to Robinhood's trading app or an old alarm clock.
+
+App
+
+![alt tag](https://raw.githubusercontent.com/dstarsboy/TMContainerSwap/master/1.png)
 
 Storyboard
 
-![alt tag](https://github.com/dstarsboy/TMNumberRoll/blob/master/StoryboardNumberRoll.png?raw=true)
+![alt tag](https://raw.githubusercontent.com/dstarsboy/TMContainerSwap/master/2.png)
