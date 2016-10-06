@@ -6,8 +6,8 @@ Demo app showing how to roll/scroll/count up numbers similar to Robinhood's trad
 
 App
 
-![alt tag](https://raw.githubusercontent.com/dstarsboy/TMContainerSwap/master/1.png)
+![alt tag](https://raw.githubusercontent.com/dstarsboy/TMNumberRoll/master/1.png)
 
 Storyboard
 
-![alt tag](https://raw.githubusercontent.com/dstarsboy/TMContainerSwap/master/2.png)
+![alt tag](https://raw.githubusercontent.com/dstarsboy/TMNumberRoll/master/2.png)
