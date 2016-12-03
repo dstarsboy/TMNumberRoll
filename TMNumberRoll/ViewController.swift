@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         scrollView.contentSize = scrollView.frame.size
         constraintScrollViewHeight.constant = 40
+        scrollView.layer.borderColor = UIColor.lightGray.cgColor
+        scrollView.layer.borderWidth = 1
         labels = [label0, label1, label2, label3, label4, label5, label6, label7, label8, label9]
     }
     
